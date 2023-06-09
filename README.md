@@ -19,4 +19,8 @@ awk '($32!="-")' snps_snpsift_clinvar.txt | grep risk_factor | cut -f 1-3,19 | s
 cut -f 3 sorted_SNP.txt | uniq > zzz.txt
 cut -d ';' -f1 zzz.txt > SNP_identificators.txt
 ```
-*Note:* 
+*Note: if you wont to select exect clinically significant, you can use the Clean Var database and download vcf with ClinVar variants (https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz). For this you also shode to download SnpSift (https://pcingola.github.io/SnpEff/)*
+
+```bash
+java -jar SnpSift.jar annotate clinvar.vcf snps.vcf > snps_snpsift_clinvar.vcf 
+```
