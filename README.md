@@ -10,7 +10,7 @@ This is a small script, which can help you to annotate your SNPs. The program ta
 
 ### 1. File preparation
 Firstly, we need to convert the file for reading. To do this, filter out the unique SNP-IDs by bash:
-```
+```bash
 # Filtering out the necessary columns in the original vcf file
 egrep -v '^#|^$' snps_snpsift_clinvar.vcf | cut -f 1-6,10 > snp_python.txt
 
@@ -19,3 +19,4 @@ awk '($32!="-")' snps_snpsift_clinvar.txt | grep risk_factor | cut -f 1-3,19 | s
 cut -f 3 sorted_SNP.txt | uniq > zzz.txt
 cut -d ';' -f1 zzz.txt > SNP_identificators.txt
 ```
+*Note:* 
