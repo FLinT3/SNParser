@@ -35,6 +35,6 @@ Use SNParser.py script and enjoy.
 
 As a result you should to get html file, which will contain something like that:
 
-<img src="F:\ANTON\222.jfif">
+<img src="file:///F:/ANTON/222.jfif">
 
 
