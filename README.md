@@ -37,4 +37,5 @@ As a result you should to get html file, which will contain something like that:
 
 <img src="file:///F:/ANTON/222.jfif">
 
+![](F:/ANTON/222.jfif)
 
