@@ -32,3 +32,9 @@ cut -d ';' -f1 zzz.txt > SNP_identificators.txt
 Use SNParser.py script and enjoy. 
 
 *Note: The input script accepts two files: SNP_identificators.txt and you 'raw' VCF snp_python.txt in __TXT__ format!*
+
+As a result you should to get html file, which will contain something like that:
+
+<img src="F:\ANTON\222.jfif">
+
+
