@@ -68,7 +68,7 @@ def line_prepender(filename, line):
 
 line_prepender(filename, line1)
 
-print("Скоро начнем")
+print("The program thinks...")
 xe = 0
 
 # BIG FOR!
@@ -126,9 +126,9 @@ for i in list_of_ID:
         table.write('<br><br>' + str(info_sum) + '<br><br>' + gene_info + '<br><br>' + html_report + '<br></br>')
         table.write("____________________________________________" * 6 + '<br><br><br><br>')
     xe += 1
-    print(str(xe) + 'й' + ' готов')
+    print(str(xe) + 'th' + ' ready')
 
-print("Готовим финальный репорт...")
+print("Preparation of the final report...")
 
 # Объединяем html файлы
 html_dir = "D:\Project_test\HTMLs\\"
