@@ -11,7 +11,7 @@ This is a small script can help to annotate your SNPs. The program take on input
 ### 1. File preparation
 Firstly, you need to convert the file for reading. To do this, filter out the unique SNP-IDs by bash:
 
-*Note: If you want to select clinically relevant SNPs, you can use the Clinwar database - download a VCF with ClinVar variants (https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz). For this you also should to download SnpSift (https://pcingola.github.io/SnpEff/)*
+*Note: If you want to select clinically relevant SNPs, you can use the Clinwar database - download a VCF with ClinVar variants (https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz). You should also download SnpSift (https://pcingola.github.io/SnpEff/)*
 
 ```bash
 java -jar SnpSift.jar annotate clinvar.vcf snps.vcf > snps_snpsift_clinvar.vcf 
