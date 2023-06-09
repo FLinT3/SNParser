@@ -4,14 +4,14 @@
 
 # About
 
-This is a small script can help to annotate your SNPs. The program take on input your SNP-id from the VCF file and generate a report based on SNPedia (https://www.snpedia.com/) data.
+This is a small script can help to annotate your SNPs. The program take on input your SNP-ID from the VCF file and generate a report based on SNPedia (https://www.snpedia.com/) data.
 
 # Steps
 
 ### 1. File preparation
-Firstly, we need to convert the file for reading. To do this, filter out the unique SNP-IDs by bash:
+Firstly, you need to convert the file for reading. To do this, filter out the unique SNP-IDs by bash:
 
-*Note: if you wont to select exect clinically significant, you can use the Clean Var database and download vcf with ClinVar variants (https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz). For this you also shode to download SnpSift (https://pcingola.github.io/SnpEff/)*
+*Note: If you want to select clinically relevant SNPs, you can use the Clanwar database - download a VCF with ClinVar variants (https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz). For this you also should to download SnpSift (https://pcingola.github.io/SnpEff/)*
 
 ```bash
 java -jar SnpSift.jar annotate clinvar.vcf snps.vcf > snps_snpsift_clinvar.vcf 
@@ -29,6 +29,6 @@ cut -d ';' -f1 zzz.txt > SNP_identificators.txt
 
 ### 2. The main part
 
-Use SNParser.py script and ejoy. 
+Use SNParser.py script and enjoy. 
 
-*Note: on input this script take two files: SNP_identificators.txt and you 'raw' VCF snp_python.txt in __TXT__ format!*
+*Note: The input script accepts two files: SNP_identificators.txt and you 'raw' VCF snp_python.txt in __TXT__ format!*
