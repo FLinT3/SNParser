@@ -1,4 +1,5 @@
 # SNParser
 This is a small script, which can help you to annotate your SNPs. The program take on input your SNP-id from the VCF file and generated a report based on SNPedia (https://www.snpedia.com/) data.
 
-https://www.ntboxmag.com/wp-content/uploads/2018/11/ntbox_bilim_rna_degisir_ve_ogrenir2.gif
+![image](https://github.com/FLinT3/SNParser/assets/114529914/450e6922-f34a-40b7-995f-eff3090547d3)
+
