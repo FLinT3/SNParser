@@ -31,4 +31,4 @@ cut -d ';' -f1 zzz.txt > SNP_identificators.txt
 
 Use SNParser.py script and ejoy. 
 
-*Note: on input this script take two files: SNP_identificators.txt and you 'raw' VCF snp_python.txt in _TXT_ format!*
+*Note: on input this script take two files: SNP_identificators.txt and you 'raw' VCF snp_python.txt in __TXT__ format!*
