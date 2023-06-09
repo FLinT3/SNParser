@@ -35,7 +35,5 @@ Use SNParser.py script and enjoy.
 
 As a result you should to get html file, which will contain something like that:
 
-<img src="file:///F:/ANTON/222.jfif">
-
-![](F:/ANTON/222.jfif)
+![222](https://github.com/FLinT3/SNParser/assets/114529914/41ff8fd6-40fb-4405-a147-b753b1de3796)
 
