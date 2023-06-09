@@ -8,5 +8,5 @@ This is a small script, which can help you to annotate your SNPs. The program ta
 
 # Steps
 
-## 1. File preparation
+### 1. File preparation
 Firstly, we need to convert the file for reading
