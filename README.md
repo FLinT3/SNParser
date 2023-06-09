@@ -35,5 +35,7 @@ Use SNParser.py script and enjoy.
 
 As a result you should to get html file, which will contain something like that:
 
-![222](https://github.com/FLinT3/SNParser/assets/114529914/41ff8fd6-40fb-4405-a147-b753b1de3796)
+![sss](https://github.com/FLinT3/SNParser/assets/114529914/01cb7d0b-5390-422f-9d69-46c179d9653d)
+
+
 
