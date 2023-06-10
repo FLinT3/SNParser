@@ -130,7 +130,7 @@ for i in list_of_ID:
 
 print("Preparation of the final report...")
 
-# Объединяем html файлы
+# Combined html
 html_dir = "D:\Project_test\HTMLs\\"
 combined_html = ''
 html_files = []
